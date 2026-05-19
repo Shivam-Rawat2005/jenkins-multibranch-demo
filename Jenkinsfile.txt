@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building project on branch: main'
+                echo 'This is development branch pipeline'
             }
         }
 
